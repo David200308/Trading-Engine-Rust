@@ -1,0 +1,13 @@
+[package]
+name = "Trading-Engine-Rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust_decimal = "1.36"
+rust_decimal_macros = "1.36"
+rocket = { version = "0.5.1", features = ["secrets", "tls", "json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
